@@ -42,5 +42,9 @@ pip install -r requirements.txt
 ![Demo 3](./assets/demo2and3.png)
 ### Demo 4
 ![Demo 4](./assets/demo4.png)
+
+## Documentation
+- [Frontend Design Specification](frontend-design-specification.md) - Complete UX design system documentation including colors, typography, components, and accessibility guidelines
+
 ## Contributing
 This repository uses [GitHub flow](https://guides.github.com/introduction/flow/).
