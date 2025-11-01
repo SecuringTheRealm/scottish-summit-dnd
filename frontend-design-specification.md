@@ -608,11 +608,13 @@ const config: Config = {
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-    require('tailwind-scrollbar'),
-  ],
+  plugins: [],
 };
+
+// Note: While @tailwindcss/typography and tailwind-scrollbar are installed as dependencies,
+// they are not currently registered in the plugins array. The typography styles are 
+// applied directly in component classes (prose, prose-sm, etc.) and custom scrollbar
+// styles are implemented via custom CSS classes (.scrollbar-medieval).
 ```
 
 **CSS Variable System:**
@@ -659,6 +661,14 @@ body {
   border-image: url('/border-medieval.png') 30 round;
   border-image-outset: 1;
   overflow: hidden;
+}
+
+/* Alternative border pattern used in some demos */
+.border-medieval {
+  border: 30px solid transparent;
+  border-image: url('/border-medieval.png') 30 stretch;
+  border-image-slice: 30 fill;
+  box-sizing: border-box;
 }
 ```
 
