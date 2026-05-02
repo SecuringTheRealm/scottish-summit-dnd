@@ -1,5 +1,8 @@
 # scottish-summit-dnd
-> A repository for "Securing the Realm" - a D&D campaign set in a world where the players are the defenders of the realm.
+
+> **Archived.** This repository contains the demo code and slides from [Scottish Summit 2024](https://www.scottishsummit.com/). It has been superseded and will be replaced with a new repository for Scottish Summit 2026 in Edinburgh, updated with multi-agent patterns and AI gateway architecture.
+>
+> See [SecuringTheRealm/str-agentic-adventures](https://github.com/SecuringTheRealm/str-agentic-adventures) for the current active project.
 
 [![Python](https://img.shields.io/badge/--3178C6?logo=python&logoColor=ffffff)](https://www.python.org/)
 [![Azure](https://img.shields.io/badge/--3178C6?logo=microsoftazure&logoColor=ffffff)](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/?WT.mc_id=AI-MVP-5004204)
@@ -9,7 +12,7 @@ The slides from [Scottish Summit 2024](https://www.scottishsummit.com/) can be f
 ## Overview
 Dungeons & Dragons (D&D) has long thrived on the creativity and guidance of the Dungeon Master (DM), orchestrating adventures for players. Recent advancements in AI and large language models (LLMs) present a new opportunity: a DM-less D&D experience. This session focuses on the practical application of LLMs and SLMs to facilitate an autonomous, engaging tabletop RPG experience, allowing every player to take in the narrative.
 
-We'll explore the technical architecture behind deploying LLMs and fine tuned SLMs for DM-less gameplay, emphasizing the integration of guardrails and memory systems for coherent storytelling. Key to this is maintaining a safe and immersive environment; so we'll also cover security measures such as red teaming and jailbreak prevention techniques that safeguard against exploits and ensure content appropriateness.
+We'll explore the technical architecture behind deploying LLMs and fine tuned SLMs for DM-less gameplay, emphasising the integration of guardrails and memory systems for coherent storytelling. Key to this is maintaining a safe and immersive environment; so we'll also cover security measures such as red teaming and jailbreak prevention techniques that safeguard against exploits and ensure content appropriateness.
 
 The technical overview will include audio inputs for voice and natural language understanding, enhancing player-AI interaction. Content generation by language models will be examined, demonstrating how AI can dynamically adapt stories, environments, and challenges in response to player actions.
 
@@ -32,9 +35,9 @@ pip install -r requirements.txt
 
 ### Future
 - 3D https://openai.com/index/point-e/
-- Adaptive cards - https://learn.microsoft.com/en-us/adaptive-cards/ https://adaptivecards.io/
+- Adaptive cards - https://learn.microsoft.com/en-us/adaptive-cards/?WT.mc_id=AI-MVP-5004204 https://adaptivecards.io/
 - Teams integration
-- Agentic AI - improves token window, improves realism https://learn.microsoft.com/en-us/semantic-kernel/overview/
+- Agentic AI - improves token window, improves realism https://learn.microsoft.com/en-us/semantic-kernel/overview/?WT.mc_id=AI-MVP-5004204
 
 
 ## Example of demo outputs
@@ -44,7 +47,7 @@ pip install -r requirements.txt
 ![Demo 4](./assets/demo4.png)
 
 ## Documentation
-- [Frontend Design Specification](frontend-design-specification.md) - Complete UX design system documentation including colors, typography, components, and accessibility guidelines
+- [Frontend Design Specification](frontend-design-specification.md) - Complete UX design system documentation including colours, typography, components, and accessibility guidelines
 
 ## Contributing
-This repository uses [GitHub flow](https://guides.github.com/introduction/flow/).
+This repository is now archived and not accepting contributions.
